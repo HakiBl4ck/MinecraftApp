@@ -1,32 +1,35 @@
 {
-    "expo": {
-        "name": "MinecraftHelper",
-        "slug": "minecraft-helper",
-        "version": "1.0.0",
-        "sdkVersion": "50.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/icon.png",
-        "userInterfaceStyle": "light",
-        "splash": {
-            "image": "./assets/splash.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#ffffff"
-        },
-        "assetBundlePatterns": [
-            "**/*"
-        ],
-        "ios": {
-            "supportsTablet": true
-        },
-        "android": {
-            "adaptiveIcon": {
-                "foregroundImage": "./assets/adaptive-icon.png",
-                "backgroundColor": "#ffffff"
-            },
-            "package": "com.hakibl4ck.minecrafthelper"
-        },
-        "web": {
-            "favicon": "./assets/favicon.png"
-        }
+  "expo": {
+    "name": "MinecraftHelper",
+    "slug": "minecraft-helper",
+    "version": "1.4.0",
+    "sdkVersion": "50.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#4e4e4e",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hakibl4ck.minecrafthelper"
+    },
+    "android": {
+      "package": "com.hakibl4ck.minecrafthelper"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8d92f149-8060-448a-bcc4-d5f2ccbd652a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8d92f149-8060-448a-bcc4-d5f2ccbd652a"
     }
+  }
 }

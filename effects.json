@@ -1,0 +1,82 @@
+[
+    {
+        "id": "ef1",
+        "name": "Prisa Minera (Haste)",
+        "effect": "Aumenta la velocidad de minado y ataque.",
+        "source": "Faro (Beacon)",
+        "image": "🧪",
+        "color": "#f9ff5a"
+    },
+    {
+        "id": "ef2",
+        "name": "Fatiga Minera",
+        "effect": "Reduce drasticamente la velocidad de minado.",
+        "source": "Guardián Anciano",
+        "image": "🧪",
+        "color": "#4a4a4a"
+    },
+    {
+        "id": "ef3",
+        "name": "Fuerza",
+        "effect": "Aumenta el daño infligido a entidades.",
+        "source": "Poción / Faro",
+        "image": "🧪",
+        "color": "#912424"
+    },
+    {
+        "id": "ef4",
+        "name": "Debilidad",
+        "effect": "Reduce el daño infligido.",
+        "source": "Poción arrojadiza",
+        "image": "🧪",
+        "color": "#484d48"
+    },
+    {
+        "id": "ef5",
+        "name": "Náuseas",
+        "effect": "Distorsiona la visión de la pantalla.",
+        "source": "Pez Globo / Portal",
+        "image": "🤢",
+        "color": "#55ff55"
+    },
+    {
+        "id": "ef6",
+        "name": "Resistencia",
+        "effect": "Reduce casi todo el daño recibido.",
+        "source": "Faro / Manzana Dorada",
+        "image": "🧪",
+        "color": "#912424"
+    },
+    {
+        "id": "ef7",
+        "name": "Levitación",
+        "effect": "Hace que el jugador flote hacia arriba.",
+        "source": "Shulker",
+        "image": "☁️",
+        "color": "#ffffff"
+    },
+    {
+        "id": "ef8",
+        "name": "Hambre",
+        "effect": "Aumenta la velocidad de agote de comida.",
+        "source": "Carne podrida / Zombi",
+        "image": "🍖",
+        "color": "#582e1d"
+    },
+    {
+        "id": "ef9",
+        "name": "Mal Presagio",
+        "effect": "Inicia una incursión al entrar en una aldea.",
+        "source": "Capitán Illager",
+        "image": "☠️",
+        "color": "#0b1515"
+    },
+    {
+        "id": "ef10",
+        "name": "Héroe de la Aldea",
+        "effect": "Descuentos con aldeanos y regalos.",
+        "source": "Vencer una incursión",
+        "image": "🛡️",
+        "color": "#55ff55"
+    }
+]

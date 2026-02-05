@@ -1,0 +1,306 @@
+[
+    {
+        "id": "e1",
+        "name": "Filo (Sharpness)",
+        "effect": "Aumenta el daño cuerpo a cuerpo.",
+        "levels": "V",
+        "items": "Espadas, Hachas",
+        "color": "#ffaa00"
+    },
+    {
+        "id": "e2",
+        "name": "Eficiencia",
+        "effect": "Aumenta la velocidad de minado.",
+        "levels": "V",
+        "items": "Picos, Hachas, Palas",
+        "color": "#00ffaa"
+    },
+    {
+        "id": "e3",
+        "name": "Fortuna",
+        "effect": "Aumenta los drops de los bloques.",
+        "levels": "III",
+        "items": "Picos, Hachas, Palas",
+        "color": "#55ff55"
+    },
+    {
+        "id": "e4",
+        "name": "Toque de Seda",
+        "effect": "Suelta el bloque mismo en vez del item.",
+        "levels": "I",
+        "items": "Picos, Hachas, Palas",
+        "color": "#ff55ff"
+    },
+    {
+        "id": "e5",
+        "name": "Irrompibilidad",
+        "effect": "Aumenta la durabilidad efectiva.",
+        "levels": "III",
+        "items": "Herramientas, Armaduras",
+        "color": "#5555ff"
+    },
+    {
+        "id": "e6",
+        "name": "Reparación (Mending)",
+        "effect": "Repara el item con experiencia.",
+        "levels": "I",
+        "items": "Cualquier item con durabilidad",
+        "color": "#ffff55"
+    },
+    {
+        "id": "e7",
+        "name": "Protección",
+        "effect": "Reduce la mayoría de tipos de daño.",
+        "levels": "IV",
+        "items": "Armaduras",
+        "color": "#ffffff"
+    },
+    {
+        "id": "e8",
+        "name": "Aspecto Ígneo",
+        "effect": "Prende fuego al objetivo al golpear.",
+        "levels": "II",
+        "items": "Espadas",
+        "color": "#ff5555"
+    },
+    {
+        "id": "e9",
+        "name": "Empuje (Knockback)",
+        "effect": "Aumenta el retroceso al golpear.",
+        "levels": "II",
+        "items": "Espadas",
+        "color": "#aaaaaa"
+    },
+    {
+        "id": "e10",
+        "name": "Saqueo (Looting)",
+        "effect": "Aumenta los drops de los mobs.",
+        "levels": "III",
+        "items": "Espadas",
+        "color": "#00aaaa"
+    },
+    {
+        "id": "e11",
+        "name": "Afinidad Acuática",
+        "effect": "Aumenta velocidad de minado bajo el agua.",
+        "levels": "I",
+        "items": "Casco",
+        "color": "#0055ff"
+    },
+    {
+        "id": "e12",
+        "name": "Respiración",
+        "effect": "Aumenta el tiempo de aire bajo el agua.",
+        "levels": "III",
+        "items": "Casco",
+        "color": "#aaffff"
+    },
+    {
+        "id": "e13",
+        "name": "Pasos de Helada",
+        "effect": "Crea hielo al caminar sobre agua.",
+        "levels": "II",
+        "items": "Botas",
+        "color": "#00ffff"
+    },
+    {
+        "id": "e14",
+        "name": "Caída de Pluma",
+        "effect": "Reduce el daño por caída.",
+        "levels": "IV",
+        "items": "Botas",
+        "color": "#ffffff"
+    },
+    {
+        "id": "e15",
+        "name": "Espinas (Thorns)",
+        "effect": "Devuelve daño a los atacantes.",
+        "levels": "III",
+        "items": "Armaduras",
+        "color": "#55ff55"
+    },
+    {
+        "id": "e16",
+        "name": "Protección contra el Fuego",
+        "effect": "Reduce el daño por fuego y lava.",
+        "levels": "IV",
+        "items": "Armaduras",
+        "color": "#ffaa00"
+    },
+    {
+        "id": "e17",
+        "name": "Protección contra Explosiones",
+        "effect": "Reduce daño por explosiones y retroceso.",
+        "levels": "IV",
+        "items": "Armaduras",
+        "color": "#555555"
+    },
+    {
+        "id": "e18",
+        "name": "Protección contra Proyectiles",
+        "effect": "Reduce daño de flechas y bolas de fuego.",
+        "levels": "IV",
+        "items": "Armaduras",
+        "color": "#aaaaaa"
+    },
+    {
+        "id": "e19",
+        "name": "Poder (Power)",
+        "effect": "Aumenta el daño de las flechas.",
+        "levels": "V",
+        "items": "Arco",
+        "color": "#ff5555"
+    },
+    {
+        "id": "e20",
+        "name": "Retroceso (Punch)",
+        "effect": "Aumenta el retroceso de las flechas.",
+        "levels": "II",
+        "items": "Arco",
+        "color": "#aaaaaa"
+    },
+    {
+        "id": "e21",
+        "name": "Fuego (Flame)",
+        "effect": "Las flechas queman al objetivo.",
+        "levels": "I",
+        "items": "Arco",
+        "color": "#ffaa00"
+    },
+    {
+        "id": "e22",
+        "name": "Infinidad",
+        "effect": "No consume flechas al disparar.",
+        "levels": "I",
+        "items": "Arco",
+        "color": "#ffff55"
+    },
+    {
+        "id": "e23",
+        "name": "Lealtad (Loyalty)",
+        "effect": "El tridente vuelve tras lanzarlo.",
+        "levels": "III",
+        "items": "Tridente",
+        "color": "#00aaff"
+    },
+    {
+        "id": "e24",
+        "name": "Conductividad",
+        "effect": "Lanza rayos durante tormentas.",
+        "levels": "I",
+        "items": "Tridente",
+        "color": "#ffffaa"
+    },
+    {
+        "id": "e25",
+        "name": "Propulsión Acuática",
+        "effect": "Lanza al jugador al usarlo en agua/lluvia.",
+        "levels": "III",
+        "items": "Tridente",
+        "color": "#00ffff"
+    },
+    {
+        "id": "e26",
+        "name": "Empalamiento",
+        "effect": "Más daño a criaturas acuáticas.",
+        "levels": "V",
+        "items": "Tridente",
+        "color": "#0055ff"
+    },
+    {
+        "id": "e27",
+        "name": "Carga Rápida",
+        "effect": "Reduce tiempo de recarga de ballesta.",
+        "levels": "III",
+        "items": "Ballesta",
+        "color": "#ffaa00"
+    },
+    {
+        "id": "e28",
+        "name": "Multidisparo",
+        "effect": "Dispara 3 flechas consumiendo solo 1.",
+        "levels": "I",
+        "items": "Ballesta",
+        "color": "#ff55ff"
+    },
+    {
+        "id": "e29",
+        "name": "Perforación",
+        "effect": "Las flechas atraviesan enemigos.",
+        "levels": "IV",
+        "items": "Ballesta",
+        "color": "#aaaaaa"
+    },
+    {
+        "id": "e30",
+        "name": "Agilidad del Alma",
+        "effect": "Velocidad sobre arena/tierra de almas.",
+        "levels": "III",
+        "items": "Botas",
+        "color": "#582e1d"
+    },
+    {
+        "id": "e31",
+        "name": "Filo Arrasador",
+        "effect": "Aumenta daño de ataque de barrido.",
+        "levels": "III",
+        "items": "Espadas",
+        "color": "#ffffff"
+    },
+    {
+        "id": "e32",
+        "name": "Castigo (Smite)",
+        "effect": "Extra daño a no-muertos (Zombis, etc).",
+        "levels": "V",
+        "items": "Espadas, Hachas",
+        "color": "#ffffaa"
+    },
+    {
+        "id": "e33",
+        "name": "Perdición de Artrópodos",
+        "effect": "Extra daño a arañas e insectos.",
+        "levels": "V",
+        "items": "Espadas, Hachas",
+        "color": "#55ff55"
+    },
+    {
+        "id": "e34",
+        "name": "Suerte Marina",
+        "effect": "Reduce probabilidad de pescar basura.",
+        "levels": "III",
+        "items": "Caña de pescar",
+        "color": "#00aaff"
+    },
+    {
+        "id": "e35",
+        "name": "Atracción (Lure)",
+        "effect": "Reduce tiempo de espera al pescar.",
+        "levels": "III",
+        "items": "Caña de pescar",
+        "color": "#ffaa00"
+    },
+    {
+        "id": "e36",
+        "name": "Maldición de Desaparición",
+        "effect": "El item desaparece al morir.",
+        "levels": "I",
+        "items": "Cualquier item",
+        "color": "#ff5555"
+    },
+    {
+        "id": "e37",
+        "name": "Maldición de Ligamiento",
+        "effect": "No puedes quitarte el item equipado.",
+        "levels": "I",
+        "items": "Armaduras",
+        "color": "#ff5555"
+    },
+    {
+        "id": "e38",
+        "name": "Velocidad de Sigilo",
+        "effect": "Caminas más rápido al estar agachado.",
+        "levels": "III",
+        "items": "Botas",
+        "color": "#333333"
+    }
+]

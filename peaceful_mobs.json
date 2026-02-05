@@ -1,0 +1,298 @@
+[
+    {
+        "id": "n1",
+        "name": "Vaca",
+        "hp": "10",
+        "habitat": "Praderas",
+        "image": "🐄",
+        "utility": "Leche, Cuero, Carne"
+    },
+    {
+        "id": "n2",
+        "name": "Oveja",
+        "hp": "8",
+        "habitat": "Praderas",
+        "image": "🐑",
+        "utility": "Lana, Carne"
+    },
+    {
+        "id": "n3",
+        "name": "Cerdo",
+        "hp": "10",
+        "habitat": "Praderas / Bosques",
+        "image": "🐷",
+        "utility": "Carne, Montura"
+    },
+    {
+        "id": "n4",
+        "name": "Pollo",
+        "hp": "4",
+        "habitat": "Praderas",
+        "image": "🐔",
+        "utility": "Plumas, Huevos, Carne"
+    },
+    {
+        "id": "n5",
+        "name": "Aldeano",
+        "hp": "20",
+        "habitat": "Aldeas",
+        "image": "👨‍🌾",
+        "utility": "Tradeos"
+    },
+    {
+        "id": "n6",
+        "name": "Caballo",
+        "hp": "15-30",
+        "habitat": "Praderas",
+        "image": "🐎",
+        "utility": "Transporte rápido"
+    },
+    {
+        "id": "n7",
+        "name": "Lobo",
+        "hp": "8 (Tame: 20)",
+        "habitat": "Bosques",
+        "image": "🐺",
+        "utility": "Protección / Caza"
+    },
+    {
+        "id": "n8",
+        "name": "Gato",
+        "hp": "10",
+        "habitat": "Aldeas / Junglas",
+        "image": "🐈",
+        "utility": "Ahuyenta Creepers / Regalos"
+    },
+    {
+        "id": "n9",
+        "name": "Ocelote",
+        "hp": "10",
+        "habitat": "Junglas",
+        "image": "🐆",
+        "utility": "Ahuyenta Creepers"
+    },
+    {
+        "id": "n10",
+        "name": "Loro",
+        "hp": "6",
+        "habitat": "Junglas",
+        "image": "🦜",
+        "utility": "Imita sonidos de mobs"
+    },
+    {
+        "id": "n11",
+        "name": "Abeja",
+        "hp": "10",
+        "habitat": "Bosques",
+        "image": "🐝",
+        "utility": "Miel, Polinización"
+    },
+    {
+        "id": "n12",
+        "name": "Zorro",
+        "hp": "10",
+        "habitat": "Taiga",
+        "image": "🦊",
+        "utility": "Carga items en la boca"
+    },
+    {
+        "id": "n13",
+        "name": "Conejo",
+        "hp": "3",
+        "habitat": "Desiertos / Bosques",
+        "image": "🐰",
+        "utility": "Pata de conejo, Piel"
+    },
+    {
+        "id": "n14",
+        "name": "Delfín",
+        "hp": "10",
+        "habitat": "Océanos",
+        "image": "🐬",
+        "utility": "Velocidad al nadar / Tesoros"
+    },
+    {
+        "id": "n15",
+        "name": "Tortuga",
+        "hp": "30",
+        "habitat": "Playas",
+        "image": "🐢",
+        "utility": "Escamas para casco"
+    },
+    {
+        "id": "n16",
+        "name": "Panda",
+        "hp": "20",
+        "habitat": "Junglas de Bambú",
+        "image": "🐼",
+        "utility": "Bambú / Slimeballs (estornudo)"
+    },
+    {
+        "id": "n17",
+        "name": "Llama",
+        "hp": "15-30",
+        "habitat": "Montañas / Sabana",
+        "image": "🦙",
+        "utility": "Transporte de carga"
+    },
+    {
+        "id": "n18",
+        "name": "Burro",
+        "hp": "15-30",
+        "habitat": "Praderas",
+        "image": "🐴",
+        "utility": "Cofre / Transporte"
+    },
+    {
+        "id": "n19",
+        "name": "Mula",
+        "hp": "15-30",
+        "habitat": "Cruce Caballo+Burro",
+        "image": "🐴",
+        "utility": "Cofre / Transporte"
+    },
+    {
+        "id": "n20",
+        "name": "Calamar",
+        "hp": "10",
+        "habitat": "Ríos / Océanos",
+        "image": "🦑",
+        "utility": "Tinta"
+    },
+    {
+        "id": "n21",
+        "name": "Calamar Brillante",
+        "hp": "10",
+        "habitat": "Cuevas acuáticas",
+        "image": "✨",
+        "utility": "Tinta brillante"
+    },
+    {
+        "id": "n22",
+        "name": "Axolote",
+        "hp": "14",
+        "habitat": "Cuevas exuberantes",
+        "image": "🐟",
+        "utility": "Ayuda en combate acuático"
+    },
+    {
+        "id": "n23",
+        "name": "Cabra",
+        "hp": "10",
+        "habitat": "Montañas nevadas",
+        "image": "🐐",
+        "utility": "Cuernos / Leche"
+    },
+    {
+        "id": "n24",
+        "name": "Allay",
+        "hp": "20",
+        "habitat": "Mansiones / Puestos",
+        "image": "🧚",
+        "utility": "Recoge y entrega items"
+    },
+    {
+        "id": "n25",
+        "name": "Camello",
+        "hp": "32",
+        "habitat": "Aldeas de Desierto",
+        "image": "🐪",
+        "utility": "Transporte de 2 personas"
+    },
+    {
+        "id": "n26",
+        "name": "Sniffer",
+        "hp": "14",
+        "habitat": "Huevo de arqueología",
+        "image": "🦖",
+        "utility": "Busca semillas antiguas"
+    },
+    {
+        "id": "n27",
+        "name": "Sapo / Rana",
+        "hp": "10",
+        "habitat": "Pantanos / Manglares",
+        "image": "🐸",
+        "utility": "Froglights / Crema magma"
+    },
+    {
+        "id": "n28",
+        "name": "Renacuajo",
+        "hp": "6",
+        "habitat": "Agua en Pantanos",
+        "image": "🐟",
+        "utility": "Crece a Rana"
+    },
+    {
+        "id": "n29",
+        "name": "Vaquichampi (Mooshroom)",
+        "hp": "10",
+        "habitat": "Isla de Setas",
+        "image": "🍄",
+        "utility": "Sopa de setas"
+    },
+    {
+        "id": "n30",
+        "name": "Murciélago",
+        "hp": "6",
+        "habitat": "Cuevas",
+        "image": "🦇",
+        "utility": "Ambiente"
+    },
+    {
+        "id": "n31",
+        "name": "Bacalao / Salmón",
+        "hp": "3",
+        "habitat": "Océanos / Ríos",
+        "image": "🐟",
+        "utility": "Comida"
+    },
+    {
+        "id": "n32",
+        "name": "Pez Globo",
+        "hp": "3",
+        "habitat": "Océanos cálidos",
+        "image": "🐡",
+        "utility": "Pociones / Veneno"
+    },
+    {
+        "id": "n33",
+        "name": "Pez Tropical",
+        "hp": "3",
+        "habitat": "Océanos cálidos",
+        "image": "🐠",
+        "utility": "Comida / Decoración"
+    },
+    {
+        "id": "n34",
+        "name": "Golems de Nieve",
+        "hp": "4",
+        "habitat": "Construido",
+        "image": "☃️",
+        "utility": "Defensa / Nieve"
+    },
+    {
+        "id": "n35",
+        "name": "Vendedor Ambulante",
+        "hp": "20",
+        "habitat": "Cualquier lugar",
+        "image": "👤",
+        "utility": "Tradeos exóticos"
+    },
+    {
+        "id": "n36",
+        "name": "Strider",
+        "hp": "20",
+        "habitat": "Lava del Nether",
+        "image": "👾",
+        "utility": "Transporte sobre lava"
+    },
+    {
+        "id": "n37",
+        "name": "Armadillo",
+        "hp": "12",
+        "habitat": "Sabana",
+        "image": "🪵",
+        "utility": "Escamas para armadura lobo"
+    }
+]

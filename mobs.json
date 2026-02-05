@@ -1,0 +1,344 @@
+[
+    {
+        "id": "m1",
+        "name": "Creeper",
+        "hp": "20",
+        "damage": "Varia (Explosión)",
+        "habitat": "Superficie / Cuevas",
+        "image": "🧨",
+        "weakness": "Gatos / Ocelotes"
+    },
+    {
+        "id": "m2",
+        "name": "Zombi",
+        "hp": "20",
+        "damage": "3-4",
+        "habitat": "Oscuridad",
+        "image": "🧟",
+        "weakness": "Luz solar / Fuego"
+    },
+    {
+        "id": "m3",
+        "name": "Esqueleto",
+        "hp": "20",
+        "damage": "2-5",
+        "habitat": "Oscuridad",
+        "image": "💀",
+        "weakness": "Luz solar / Lobos"
+    },
+    {
+        "id": "m4",
+        "name": "Enderman",
+        "hp": "40",
+        "damage": "7-10",
+        "habitat": "The End / Superficie",
+        "image": "💜",
+        "weakness": "Agua / Lluvia"
+    },
+    {
+        "id": "m5",
+        "name": "Araña",
+        "hp": "16",
+        "damage": "2-3",
+        "habitat": "Oscuridad",
+        "image": "🕷️",
+        "weakness": "Luz / Altura"
+    },
+    {
+        "id": "m6",
+        "name": "Bruja",
+        "hp": "26",
+        "damage": "Pociones",
+        "habitat": "Cabañas",
+        "image": "🧹",
+        "weakness": "Ataque rápido"
+    },
+    {
+        "id": "m7",
+        "name": "Ghast",
+        "hp": "10",
+        "damage": "Varia (Fuego)",
+        "habitat": "Nether",
+        "image": "👻",
+        "weakness": "Flechas"
+    },
+    {
+        "id": "m8",
+        "name": "Esqueleto Wither",
+        "hp": "20",
+        "damage": "4 + Wither",
+        "habitat": "Fortalezas Nether",
+        "image": "🖤",
+        "weakness": "Golpes críticos"
+    },
+    {
+        "id": "m9",
+        "name": "Blaze",
+        "hp": "20",
+        "damage": "4-6 (Fuego)",
+        "habitat": "Fortalezas Nether",
+        "image": "🔥",
+        "weakness": "Bolas de nieve"
+    },
+    {
+        "id": "m10",
+        "name": "Warden",
+        "hp": "500",
+        "damage": "30-45",
+        "habitat": "Ancient City",
+        "image": "🔈",
+        "weakness": "Sigilo"
+    },
+    {
+        "id": "m11",
+        "name": "Slime",
+        "hp": "16 / 4 / 1",
+        "damage": "4 / 2 / 0",
+        "habitat": "Pantanos / Chunks Slime",
+        "image": "🟢",
+        "weakness": "Cualquier arma"
+    },
+    {
+        "id": "m12",
+        "name": "Cubo de Magma",
+        "hp": "16 / 4 / 1",
+        "damage": "6 / 4 / 3",
+        "habitat": "Nether",
+        "image": "🌋",
+        "weakness": "Agua"
+    },
+    {
+        "id": "m13",
+        "name": "Araña de Cueva",
+        "hp": "12",
+        "damage": "2 + Veneno",
+        "habitat": "Minas abandonadas",
+        "image": "🕷️",
+        "weakness": "Luz / Altura"
+    },
+    {
+        "id": "m14",
+        "name": "Lepisma (Silverfish)",
+        "hp": "8",
+        "damage": "1",
+        "habitat": "Strongholds",
+        "image": "🐜",
+        "weakness": "Fuego / Area"
+    },
+    {
+        "id": "m15",
+        "name": "Endermite",
+        "hp": "8",
+        "damage": "2",
+        "habitat": "Tras usar perlas ender",
+        "image": "🐛",
+        "weakness": "Cualquier arma"
+    },
+    {
+        "id": "m16",
+        "name": "Shulker",
+        "hp": "30",
+        "damage": "4 + Levitación",
+        "habitat": "End Cities",
+        "image": "📦",
+        "weakness": "Escudos"
+    },
+    {
+        "id": "m17",
+        "name": "Husk (Zombi Desierto)",
+        "hp": "20",
+        "damage": "3 + Hambre",
+        "habitat": "Desiertos",
+        "image": "🏜️",
+        "weakness": "Agua"
+    },
+    {
+        "id": "m18",
+        "name": "Stray (Esqueleto Glacial)",
+        "hp": "20",
+        "damage": "4 + Lentitud",
+        "habitat": "Biomas nevados",
+        "image": "❄️",
+        "weakness": "Lobos / Fuego"
+    },
+    {
+        "id": "m19",
+        "name": "Phantom",
+        "hp": "20",
+        "damage": "6-9",
+        "habitat": "Cielo (tras no dormir)",
+        "image": "🦇",
+        "weakness": "Gatos / Luz solar"
+    },
+    {
+        "id": "m20",
+        "name": "Ahogado (Drowned)",
+        "hp": "20",
+        "damage": "Varia (Tridente)",
+        "habitat": "Océanos / Ríos",
+        "image": "🧜",
+        "weakness": "Luz solar"
+    },
+    {
+        "id": "m21",
+        "name": "Saqueador (Pillager)",
+        "hp": "24",
+        "damage": "4 (Flechas)",
+        "habitat": "Puestos / Escoltas",
+        "image": "🏹",
+        "weakness": "Combate cercano"
+    },
+    {
+        "id": "m22",
+        "name": "Vindicador",
+        "hp": "24",
+        "damage": "7-13",
+        "habitat": "Mansiones / Raids",
+        "image": "🪓",
+        "weakness": "Arco"
+    },
+    {
+        "id": "m23",
+        "name": "Invocador (Evoker)",
+        "hp": "24",
+        "damage": "Magia / Vexes",
+        "habitat": "Mansiones / Raids",
+        "image": "🪄",
+        "weakness": "Ataque rápido"
+    },
+    {
+        "id": "m24",
+        "name": "Devastador (Ravager)",
+        "hp": "100",
+        "damage": "7-12",
+        "habitat": "Raids",
+        "image": "🐃",
+        "weakness": "Escudo + Arco"
+    },
+    {
+        "id": "m25",
+        "name": "Vex",
+        "hp": "14",
+        "damage": "5-9",
+        "habitat": "Invocados por Evoker",
+        "image": "🧚",
+        "weakness": "Cualquier arma"
+    },
+    {
+        "id": "m26",
+        "name": "Piglin",
+        "hp": "16",
+        "damage": "5-8",
+        "habitat": "Nether",
+        "image": "🐷",
+        "weakness": "Oro (Distracción)"
+    },
+    {
+        "id": "m27",
+        "name": "Piglin Bruto",
+        "hp": "50",
+        "damage": "7-13",
+        "habitat": "Bastiones Nether",
+        "image": "🪓",
+        "weakness": "Arco / Altura"
+    },
+    {
+        "id": "m28",
+        "name": "Hoglin",
+        "hp": "40",
+        "damage": "5-12",
+        "habitat": "Nether",
+        "image": "🐗",
+        "weakness": "Hongos deformados"
+    },
+    {
+        "id": "m29",
+        "name": "Zoglin",
+        "hp": "40",
+        "damage": "5-12",
+        "habitat": "Nether / Overworld",
+        "image": "🧟",
+        "weakness": "Hongos deformados"
+    },
+    {
+        "id": "m30",
+        "name": "Guardián",
+        "hp": "30",
+        "damage": "6-9 (Láser)",
+        "habitat": "Monumentos Oceánicos",
+        "image": "🐡",
+        "weakness": "Combate cercano"
+    },
+    {
+        "id": "m31",
+        "name": "Guardián Anciano",
+        "hp": "80",
+        "damage": "8-12 + Fatiga",
+        "habitat": "Monumentos Oceánicos",
+        "image": "🐡",
+        "weakness": "Tridente / Espada"
+    },
+    {
+        "id": "m32",
+        "name": "Wither (Jefe)",
+        "hp": "300 / 600",
+        "damage": "8 + Wither",
+        "habitat": "Invocado",
+        "image": "☠️",
+        "weakness": "Fuerza II"
+    },
+    {
+        "id": "m33",
+        "name": "Ender Dragon (Jefe)",
+        "hp": "200",
+        "damage": "Varia (Aliento)",
+        "habitat": "The End",
+        "image": "🐲",
+        "weakness": "Camas / Flechas"
+    },
+    {
+        "id": "m34",
+        "name": "Gólem de Hierro",
+        "hp": "100",
+        "damage": "7-21",
+        "habitat": "Aldeas",
+        "image": "🛡️",
+        "weakness": "Altura (3 bloques)"
+    },
+    {
+        "id": "m35",
+        "name": "Lobo (Enojado)",
+        "hp": "8",
+        "damage": "3-4",
+        "habitat": "Bosques",
+        "image": "🐺",
+        "weakness": "Altura"
+    },
+    {
+        "id": "m36",
+        "name": "Abeja (Enojada)",
+        "hp": "10",
+        "damage": "2 + Veneno",
+        "habitat": "Bosques / Praderas",
+        "image": "🐝",
+        "weakness": "Agua"
+    },
+    {
+        "id": "m37",
+        "name": "Oso Polar",
+        "hp": "30",
+        "damage": "4-9",
+        "habitat": "Biomas gélidos",
+        "image": "🐻",
+        "weakness": "Arco"
+    },
+    {
+        "id": "m38",
+        "name": "Panda (Agresivo)",
+        "hp": "20",
+        "damage": "4-6",
+        "habitat": "Junglas",
+        "image": "🐼",
+        "weakness": "Cualquier arma"
+    }
+]

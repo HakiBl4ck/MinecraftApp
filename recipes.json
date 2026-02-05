@@ -1,0 +1,682 @@
+[
+    {
+        "id": "1",
+        "name": "Pico de Madera",
+        "ingredients": "3 Tablas, 2 Palos",
+        "image": "⛏️",
+        "grid": [
+            "W",
+            "W",
+            "W",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Pico de Piedra",
+        "ingredients": "3 Piedras, 2 Palos",
+        "image": "⛏️",
+        "grid": [
+            "C",
+            "C",
+            "C",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Pico de Hierro",
+        "ingredients": "3 Lingotes Hierro, 2 Palos",
+        "image": "⛏️",
+        "grid": [
+            "I",
+            "I",
+            "I",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Pico de Oro",
+        "ingredients": "3 Lingotes Oro, 2 Palos",
+        "image": "⛏️",
+        "grid": [
+            "G",
+            "G",
+            "G",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Pico de Diamante",
+        "ingredients": "3 Diamantes, 2 Palos",
+        "image": "⛏️",
+        "grid": [
+            "D",
+            "D",
+            "D",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Espada de Madera",
+        "ingredients": "2 Tablas, 1 Palo",
+        "image": "⚔️",
+        "grid": [
+            "",
+            "W",
+            "",
+            "",
+            "W",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Espada de Piedra",
+        "ingredients": "2 Piedras, 1 Palo",
+        "image": "⚔️",
+        "grid": [
+            "",
+            "C",
+            "",
+            "",
+            "C",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Espada de Hierro",
+        "ingredients": "2 Lingotes Hierro, 1 Palo",
+        "image": "⚔️",
+        "grid": [
+            "",
+            "I",
+            "",
+            "",
+            "I",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Espada de Oro",
+        "ingredients": "2 Lingotes Oro, 1 Palo",
+        "image": "⚔️",
+        "grid": [
+            "",
+            "G",
+            "",
+            "",
+            "G",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Espada de Diamante",
+        "ingredients": "2 Diamantes, 1 Palo",
+        "image": "⚔️",
+        "grid": [
+            "",
+            "D",
+            "",
+            "",
+            "D",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Hacha de Madera",
+        "ingredients": "3 Tablas, 2 Palos",
+        "image": "🪓",
+        "grid": [
+            "W",
+            "W",
+            "",
+            "W",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Hacha de Hierro",
+        "ingredients": "3 Lingotes Hierro, 2 Palos",
+        "image": "🪓",
+        "grid": [
+            "I",
+            "I",
+            "",
+            "I",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Hacha de Diamante",
+        "ingredients": "3 Diamantes, 2 Palos",
+        "image": "🪓",
+        "grid": [
+            "D",
+            "D",
+            "",
+            "D",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Pala de Madera",
+        "ingredients": "1 Tabla, 2 Palos",
+        "image": "🧹",
+        "grid": [
+            "",
+            "W",
+            "",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Pala de Hierro",
+        "ingredients": "1 Lingote Hierro, 2 Palos",
+        "image": "🧹",
+        "grid": [
+            "",
+            "I",
+            "",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Pala de Diamante",
+        "ingredients": "1 Diamante, 2 Palos",
+        "image": "🧹",
+        "grid": [
+            "",
+            "D",
+            "",
+            "",
+            "S",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "17",
+        "name": "Mesa de Trabajo",
+        "ingredients": "4 Tablas",
+        "image": "📦",
+        "grid": [
+            "",
+            "",
+            "",
+            "W",
+            "W",
+            "",
+            "W",
+            "W",
+            ""
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Horno",
+        "ingredients": "8 Piedras",
+        "image": "🔥",
+        "grid": [
+            "C",
+            "C",
+            "C",
+            "C",
+            "",
+            "C",
+            "C",
+            "C",
+            "C"
+        ]
+    },
+    {
+        "id": "19",
+        "name": "Cofre",
+        "ingredients": "8 Tablas",
+        "image": "🗃️",
+        "grid": [
+            "W",
+            "W",
+            "W",
+            "W",
+            "",
+            "W",
+            "W",
+            "W",
+            "W"
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Antorcha",
+        "ingredients": "1 Carbón, 1 Palo",
+        "image": "🕯️",
+        "grid": [
+            "",
+            "",
+            "",
+            "",
+            "L",
+            "",
+            "",
+            "S",
+            ""
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Casco de Hierro",
+        "ingredients": "5 Lingotes Hierro",
+        "image": "🪖",
+        "grid": [
+            "I",
+            "I",
+            "I",
+            "I",
+            "",
+            "I",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "22",
+        "name": "Peto de Hierro",
+        "ingredients": "8 Lingotes Hierro",
+        "image": "👕",
+        "grid": [
+            "I",
+            "",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I"
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Grebas de Hierro",
+        "ingredients": "7 Lingotes Hierro",
+        "image": "👖",
+        "grid": [
+            "I",
+            "I",
+            "I",
+            "I",
+            "",
+            "I",
+            "I",
+            "",
+            "I"
+        ]
+    },
+    {
+        "id": "24",
+        "name": "Botas de Hierro",
+        "ingredients": "4 Lingotes Hierro",
+        "image": "👞",
+        "grid": [
+            "",
+            "",
+            "",
+            "I",
+            "",
+            "I",
+            "I",
+            "",
+            "I"
+        ]
+    },
+    {
+        "id": "25",
+        "name": "Casco de Diamante",
+        "ingredients": "5 Diamantes",
+        "image": "🪖",
+        "grid": [
+            "D",
+            "D",
+            "D",
+            "D",
+            "",
+            "D",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "26",
+        "name": "Peto de Diamante",
+        "ingredients": "8 Diamantes",
+        "image": "👕",
+        "grid": [
+            "D",
+            "",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D"
+        ]
+    },
+    {
+        "id": "27",
+        "name": "Lamas de Diamante",
+        "ingredients": "7 Diamantes",
+        "image": "👖",
+        "grid": [
+            "D",
+            "D",
+            "D",
+            "D",
+            "",
+            "D",
+            "D",
+            "",
+            "D"
+        ]
+    },
+    {
+        "id": "28",
+        "name": "Botas de Diamante",
+        "ingredients": "4 Diamantes",
+        "image": "👞",
+        "grid": [
+            "",
+            "",
+            "",
+            "D",
+            "",
+            "D",
+            "D",
+            "",
+            "D"
+        ]
+    },
+    {
+        "id": "29",
+        "name": "Puerta de Madera",
+        "ingredients": "6 Tablas",
+        "image": "🚪",
+        "grid": [
+            "W",
+            "W",
+            "",
+            "W",
+            "W",
+            "",
+            "W",
+            "W",
+            ""
+        ]
+    },
+    {
+        "id": "30",
+        "name": "Cama",
+        "ingredients": "3 Lanas, 3 Tablas",
+        "image": "🛏️",
+        "grid": [
+            "",
+            "",
+            "",
+            "L",
+            "L",
+            "L",
+            "W",
+            "W",
+            "W"
+        ]
+    },
+    {
+        "id": "31",
+        "name": "Escaleras",
+        "ingredients": "7 Palos",
+        "image": "🪜",
+        "grid": [
+            "S",
+            "",
+            "S",
+            "S",
+            "S",
+            "S",
+            "S",
+            "",
+            "S"
+        ]
+    },
+    {
+        "id": "32",
+        "name": "Valla",
+        "ingredients": "4 Tablas, 2 Palos",
+        "image": "🧱",
+        "grid": [
+            "",
+            "",
+            "",
+            "W",
+            "S",
+            "W",
+            "W",
+            "S",
+            "W"
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Bote",
+        "ingredients": "5 Tablas",
+        "image": "🛶",
+        "grid": [
+            "",
+            "",
+            "",
+            "W",
+            "",
+            "W",
+            "W",
+            "W",
+            "W"
+        ]
+    },
+    {
+        "id": "34",
+        "name": "Cubo",
+        "ingredients": "3 Lingotes Hierro",
+        "image": "🪣",
+        "grid": [
+            "",
+            "",
+            "",
+            "I",
+            "",
+            "I",
+            "",
+            "I",
+            ""
+        ]
+    },
+    {
+        "id": "35",
+        "name": "Arco",
+        "ingredients": "3 Palos, 3 Hilos",
+        "image": "🏹",
+        "grid": [
+            "",
+            "S",
+            "T",
+            "S",
+            "",
+            "T",
+            "",
+            "S",
+            "T"
+        ]
+    },
+    {
+        "id": "36",
+        "name": "Flecha",
+        "ingredients": "Silex, Palo, Pluma",
+        "image": "➶",
+        "grid": [
+            "",
+            "F",
+            "",
+            "",
+            "S",
+            "",
+            "",
+            "P",
+            ""
+        ]
+    },
+    {
+        "id": "37",
+        "name": "TNT",
+        "ingredients": "5 Pólvoras, 4 Arenas",
+        "image": "🧨",
+        "grid": [
+            "G",
+            "A",
+            "G",
+            "A",
+            "G",
+            "A",
+            "G",
+            "A",
+            "G"
+        ]
+    },
+    {
+        "id": "38",
+        "name": "Yunque",
+        "ingredients": "3 Bloques Hierro, 4 Lingotes Hierro",
+        "image": "🔨",
+        "grid": [
+            "B",
+            "B",
+            "B",
+            "",
+            "I",
+            "",
+            "I",
+            "I",
+            "I"
+        ]
+    },
+    {
+        "id": "39",
+        "name": "Encendedor",
+        "ingredients": "1 Lingote Hierro, 1 Silex",
+        "image": "🔥",
+        "grid": [
+            "",
+            "",
+            "",
+            "I",
+            "",
+            "",
+            "",
+            "F",
+            ""
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Escudo",
+        "ingredients": "6 Tablas, 1 Lingote Hierro",
+        "image": "🛡️",
+        "grid": [
+            "W",
+            "I",
+            "W",
+            "W",
+            "W",
+            "W",
+            "",
+            "W",
+            ""
+        ]
+    }
+]

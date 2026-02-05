@@ -678,5 +678,345 @@
             "W",
             ""
         ]
+    },
+    {
+        "id": "41",
+        "name": "Bloque de Slime",
+        "ingredients": "9 Bolas de Slime",
+        "image": "🟩",
+        "grid": [
+            "🟢",
+            "🟢",
+            "🟢",
+            "🟢",
+            "🟢",
+            "🟢",
+            "🟢",
+            "🟢",
+            "🟢"
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Bloque de Miel",
+        "ingredients": "4 Botellas de Miel",
+        "image": "🍯",
+        "grid": [
+            "🍯",
+            "🍯",
+            "",
+            "🍯",
+            "🍯",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Andamio",
+        "ingredients": "6 Bambú, 1 Hilo",
+        "image": "🏗️",
+        "grid": [
+            "🎋",
+            "T",
+            "🎋",
+            "🎋",
+            "",
+            "🎋",
+            "🎋",
+            "",
+            "🎋"
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Linterna",
+        "ingredients": "1 Antorcha, 8 Pepitas Hierro",
+        "image": "🏮",
+        "grid": [
+            "⛓️",
+            "⛓️",
+            "⛓️",
+            "⛓️",
+            "🕯️",
+            "⛓️",
+            "⛓️",
+            "⛓️",
+            "⛓️"
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Hoguera",
+        "ingredients": "3 Palos, 1 Carbón, 3 Troncos",
+        "image": "⛺",
+        "grid": [
+            "",
+            "S",
+            "",
+            "S",
+            "L",
+            "S",
+            "🪵",
+            "🪵",
+            "🪵"
+        ]
+    },
+    {
+        "id": "46",
+        "name": "Dispensador",
+        "ingredients": "7 Piedras, 1 Arco, 1 Redstone",
+        "image": "👿",
+        "grid": [
+            "C",
+            "C",
+            "C",
+            "C",
+            "🏹",
+            "C",
+            "C",
+            "🔴",
+            "C"
+        ]
+    },
+    {
+        "id": "47",
+        "name": "Soltador",
+        "ingredients": "7 Piedras, 1 Redstone",
+        "image": "😶",
+        "grid": [
+            "C",
+            "C",
+            "C",
+            "C",
+            "",
+            "C",
+            "C",
+            "🔴",
+            "C"
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Pistón",
+        "ingredients": "3 Tablas, 4 Piedras, 1 Hierro, 1 Redstone",
+        "image": "🤜",
+        "grid": [
+            "W",
+            "W",
+            "W",
+            "C",
+            "I",
+            "C",
+            "C",
+            "🔴",
+            "C"
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Observador",
+        "ingredients": "6 Piedras, 2 Redstone, 1 Cuarzo",
+        "image": "👀",
+        "grid": [
+            "C",
+            "C",
+            "C",
+            "🔴",
+            "🔴",
+            "🖱️",
+            "C",
+            "C",
+            "C"
+        ]
+    },
+    {
+        "id": "50",
+        "name": "Tolva",
+        "ingredients": "5 Lingotes Hierro, 1 Cofre",
+        "image": "🔽",
+        "grid": [
+            "I",
+            "",
+            "I",
+            "I",
+            "🗃️",
+            "I",
+            "",
+            "I",
+            ""
+        ]
+    },
+    {
+        "id": "51",
+        "name": "Soporte Pociones",
+        "ingredients": "1 Vara Blaze, 3 Piedras",
+        "image": "⚗️",
+        "grid": [
+            "",
+            "🔥",
+            "",
+            "C",
+            "C",
+            "C",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "52",
+        "name": "Mesa de Encantamientos",
+        "ingredients": "1 Libro, 2 Diamantes, 4 Obsidianas",
+        "image": "📖",
+        "grid": [
+            "",
+            "📘",
+            "",
+            "D",
+            "⬛",
+            "D",
+            "⬛",
+            "⬛",
+            "⬛"
+        ]
+    },
+    {
+        "id": "53",
+        "name": "Riel",
+        "ingredients": "6 Lingotes Hierro, 1 Palo",
+        "image": "🛤️",
+        "grid": [
+            "I",
+            "",
+            "I",
+            "I",
+            "S",
+            "I",
+            "I",
+            "",
+            "I"
+        ]
+    },
+    {
+        "id": "54",
+        "name": "Vagoneta",
+        "ingredients": "5 Lingotes Hierro",
+        "image": "🛒",
+        "grid": [
+            "I",
+            "",
+            "I",
+            "I",
+            "I",
+            "I",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "55",
+        "name": "Bloque de Hierro",
+        "ingredients": "9 Lingotes Hierro",
+        "image": "⬜",
+        "grid": [
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I",
+            "I"
+        ]
+    },
+    {
+        "id": "56",
+        "name": "Bloque de Oro",
+        "ingredients": "9 Lingotes Oro",
+        "image": "🟨",
+        "grid": [
+            "G",
+            "G",
+            "G",
+            "G",
+            "G",
+            "G",
+            "G",
+            "G",
+            "G"
+        ]
+    },
+    {
+        "id": "57",
+        "name": "Bloque de Diamante",
+        "ingredients": "9 Diamantes",
+        "image": "💎",
+        "grid": [
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D",
+            "D"
+        ]
+    },
+    {
+        "id": "58",
+        "name": "Faro (Beacon)",
+        "ingredients": "5 Vidrios, 1 Estrella Nether, 3 Obsidianas",
+        "image": "🌟",
+        "grid": [
+            "⬜",
+            "⬜",
+            "⬜",
+            "⬜",
+            "⭐",
+            "⬜",
+            "⬛",
+            "⬛",
+            "⬛"
+        ]
+    },
+    {
+        "id": "59",
+        "name": "Caldero",
+        "ingredients": "7 Lingotes Hierro",
+        "image": "🛀",
+        "grid": [
+            "I",
+            "",
+            "I",
+            "I",
+            "",
+            "I",
+            "I",
+            "I",
+            "I"
+        ]
+    },
+    {
+        "id": "60",
+        "name": "Pantalones de Oro",
+        "ingredients": "7 Lingotes Oro",
+        "image": "🟡",
+        "grid": [
+            "G",
+            "G",
+            "G",
+            "G",
+            "",
+            "G",
+            "G",
+            "",
+            "G"
+        ]
     }
 ]

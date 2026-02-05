@@ -70,8 +70,10 @@ export default function App() {
         const map = {
             'W': '🪵', 'S': '🦯', 'C': '🧱', 'I': '🖱️', 'G': '🟡', 'D': '💎',
             'L': '☁️', 'F': '⚡', 'P': '🪶', 'A': '🏜️', 'B': '⛓️', 'T': '🧵',
+            '🔴': '🔴', '⭐': '⭐', '⬛': '⬛', '📘': '📘', '🏹': '🏹', '🍯': '🍯',
+            '🟢': '🟢', '🎋': '🎋', '🗃️': '🗃️'
         };
-        return map[code] || '';
+        return map[code] || code || '';
     };
 
     const renderCard = (item, type) => (
@@ -82,8 +84,8 @@ export default function App() {
                         <Text style={[styles.recipeIcon, (type === 'potion' || type === 'effect') && { color: item.color }]}>{item.image || '✨'}</Text>
                     </View>
                     <View style={styles.recipeInfo}>
-                        <Text style={styles.recipeName}>{item.name.toUpperCase()}</Text>
-                        <Text style={styles.recipeIngredients} numberOfLines={1}>{item.effect || item.ingredients || item.habitat || item.utility}</Text>
+                        <Text style={[styles.recipeName, isWeb && { fontSize: 16 }]}>{item.name.toUpperCase()}</Text>
+                        <Text style={[styles.recipeIngredients, isWeb && { fontSize: 13 }]} numberOfLines={isWeb ? 3 : 1}>{item.effect || item.ingredients || item.habitat || item.utility}</Text>
                     </View>
                 </View>
                 <View style={styles.recipeCardShadow} />
@@ -106,13 +108,13 @@ export default function App() {
                 <View style={styles.webGrid}>
                     {buttons.map(btn => (
                         <MinecraftButton key={btn.id} onPress={() => setActiveModal(btn.id)} style={styles.webBtn}>
-                            <Text style={styles.buttonText}>{btn.name}</Text>
-                            <Text style={{ fontSize: 24 }}>{btn.icon}</Text>
+                            <Text style={[styles.buttonText, { fontSize: 18 }]}>{btn.name}</Text>
+                            <Text style={{ fontSize: 32 }}>{btn.icon}</Text>
                         </MinecraftButton>
                     ))}
                     <MinecraftButton onPress={() => console.log('Pico')} style={styles.webBtn}>
-                        <Text style={styles.buttonText}>PICO</Text>
-                        <Text style={{ fontSize: 24 }}>💎</Text>
+                        <Text style={[styles.buttonText, { fontSize: 18 }]}>PICO</Text>
+                        <Text style={{ fontSize: 32 }}>💎</Text>
                     </MinecraftButton>
                 </View>
             );
@@ -144,14 +146,14 @@ export default function App() {
         <SafeAreaView style={styles.container}>
             <StatusBar style="light" />
 
-            <View style={[styles.titleContainer, isWeb && { width: '60%', height: 100 }]}>
+            <View style={[styles.titleContainer, isWeb && { width: '80%', height: 120, maxWidth: 800 }]}>
                 <View style={styles.titleBox}>
-                    <Text style={[styles.titleText, isWeb && { fontSize: 36 }]}>MINECRAFT HELPER</Text>
+                    <Text style={[styles.titleText, isWeb && { fontSize: 48 }]}>MINECRAFT HELPER</Text>
                 </View>
                 <View style={styles.titleShadow} />
             </View>
 
-            <View style={[styles.searchContainer, isWeb ? { width: '60%' } : { width: '90%' }]}>
+            <View style={[styles.searchContainer, isWeb ? { width: '60%', maxWidth: 600 } : { width: '90%' }]}>
                 <TextInput
                     style={styles.globalSearchInput}
                     placeholder="BUSCAR GLOBALMENTE..."
@@ -162,30 +164,35 @@ export default function App() {
                 <View style={styles.searchShadow} />
             </View>
 
-            <ScrollView style={styles.scrollView} contentContainerStyle={isWeb ? { paddingHorizontal: '10%' } : { paddingHorizontal: 20 }}>
+            <ScrollView style={styles.scrollView} contentContainerStyle={isWeb ? { paddingHorizontal: '5%', alignItems: 'center' } : { paddingHorizontal: 20 }}>
                 {globalSearch ? (
-                    <View>
-                        {searchResults.recipes.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>RECETAS</Text><View style={styles.resultGrid}>{searchResults.recipes.map(i => <View key={i.id}>{renderCard(i, 'recipe')}</View>)}</View></View>}
-                        {searchResults.potions.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>POCIONES</Text><View style={styles.resultGrid}>{searchResults.potions.map(i => <View key={i.id}>{renderCard(i, 'potion')}</View>)}</View></View>}
-                        {searchResults.mobs.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>MOBS HOSTILES</Text><View style={styles.resultGrid}>{searchResults.mobs.map(i => <View key={i.id}>{renderCard(i, 'mob')}</View>)}</View></View>}
-                        {searchResults.peaceful.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>MOBS PACIFICOS</Text><View style={styles.resultGrid}>{searchResults.peaceful.map(i => <View key={i.id}>{renderCard(i, 'peaceful')}</View>)}</View></View>}
+                    <View style={{ width: '100%', maxWidth: 1200 }}>
+                        {searchResults.recipes.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>RECETAS</Text><View style={styles.resultGrid}>{searchResults.recipes.map(i => <View key={i.id} style={isWeb ? { width: '32%' } : { width: '100%' }}>{renderCard(i, 'recipe')}</View>)}</View></View>}
+                        {searchResults.potions.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>POCIONES</Text><View style={styles.resultGrid}>{searchResults.potions.map(i => <View key={i.id} style={isWeb ? { width: '32%' } : { width: '100%' }}>{renderCard(i, 'potion')}</View>)}</View></View>}
+                        {searchResults.mobs.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>MOBS HOSTILES</Text><View style={styles.resultGrid}>{searchResults.mobs.map(i => <View key={i.id} style={isWeb ? { width: '32%' } : { width: '100%' }}>{renderCard(i, 'mob')}</View>)}</View></View>}
+                        {searchResults.peaceful.length > 0 && <View style={styles.section}><Text style={styles.sectionTitle}>MOBS PACIFICOS</Text><View style={styles.resultGrid}>{searchResults.peaceful.map(i => <View key={i.id} style={isWeb ? { width: '32%' } : { width: '100%' }}>{renderCard(i, 'peaceful')}</View>)}</View></View>}
                     </View>
-                ) : getButtonGrid()}
+                ) : (
+                    <View style={{ width: '100%', maxWidth: 1200 }}>
+                        {getButtonGrid()}
+                    </View>
+                )}
             </ScrollView>
 
             {/* Lists Modal */}
             <Modal visible={activeModal !== null} transparent animationType="slide" onRequestClose={() => setActiveModal(null)}>
                 <View style={styles.modalBg}>
-                    <View style={[styles.modalContent, isWeb && { width: '85%' }]}>
+                    <View style={[styles.modalContent, isWeb && { width: '90%', maxWidth: 1200, height: '90%' }]}>
                         <View style={styles.modalHeader}>
-                            <Text style={styles.modalTitle}>{activeModal?.toUpperCase()}</Text>
+                            <Text style={[styles.modalTitle, isWeb && { fontSize: 32 }]}>{activeModal?.toUpperCase()}</Text>
                             <TouchableOpacity onPress={() => setActiveModal(null)}><View style={styles.closeButton}><Text style={styles.closeButtonText}>X</Text></View></TouchableOpacity>
                         </View>
                         <FlatList
                             data={activeModal === 'recipes' ? recipesData : activeModal === 'enchantments' ? enchantmentsData : activeModal === 'potions' ? potionsData : activeModal === 'effects' ? effectsData : activeModal === 'mobs' ? mobsData : peacefulMobsData}
-                            renderItem={({ item }) => renderCard(item, activeModal.slice(0, -1))}
+                            renderItem={({ item }) => <View style={isWeb ? { flex: 1, margin: 8 } : { width: '100%' }}>{renderCard(item, activeModal.slice(0, -1))}</View>}
                             keyExtractor={item => item.id}
                             numColumns={isWeb ? 3 : 1}
+                            columnWrapperStyle={isWeb && { justifyContent: 'space-between' }}
                             contentContainerStyle={styles.listContainer}
                         />
                     </View>
@@ -195,39 +202,40 @@ export default function App() {
             {/* Detail Modal */}
             <Modal visible={detailVisible} transparent animationType="fade">
                 <View style={styles.modalBg}>
-                    <View style={[styles.modalContent, { height: 'auto', paddingBottom: 40 }, isWeb && { width: '50%' }]}>
+                    <View style={[styles.modalContent, { height: 'auto', paddingBottom: 40 }, isWeb && { width: '60%', maxWidth: 800 }]}>
                         <View style={styles.modalHeader}>
                             <Text style={styles.modalTitle}>{selectedItem?.name.toUpperCase()}</Text>
                             <TouchableOpacity onPress={() => setDetailVisible(false)}><View style={styles.closeButton}><Text style={styles.closeButtonText}>X</Text></View></TouchableOpacity>
                         </View>
 
-                        <View style={styles.detailContainer}>
+                        <ScrollView contentContainerStyle={styles.detailContainer}>
                             {detailType === 'recipe' && (
                                 <View style={styles.craftingGridContainer}>
-                                    <View style={styles.gridBackground}><View style={styles.grid}>{selectedItem?.grid.map((c, i) => <View key={i} style={styles.gridCell}><Text style={styles.gridEmoji}>{getItemEmoji(c)}</Text></View>)}</View></View>
-                                    <Text style={styles.arrow}>➡️</Text>
-                                    <View style={[styles.gridCell, styles.resultCell]}><Text style={{ fontSize: 40 }}>{selectedItem?.image}</Text></View>
+                                    <View style={[styles.gridBackground, { transform: [{ scale: isWeb ? 1.5 : 1 }] }]}><View style={styles.grid}>{selectedItem?.grid.map((c, i) => <View key={i} style={styles.gridCell}><Text style={styles.gridEmoji}>{getItemEmoji(c)}</Text></View>)}</View></View>
+                                    <View style={isWeb && { width: 50 }} />
+                                    <Text style={[styles.arrow, isWeb && { fontSize: 40 }]}>➡️</Text>
+                                    <View style={[styles.gridCell, styles.resultCell, isWeb && { transform: [{ scale: 1.5 }] }]}><Text style={{ fontSize: 40 }}>{selectedItem?.image}</Text></View>
                                 </View>
                             )}
 
-                            <View style={styles.recipeInfoBox}>
+                            <View style={[styles.recipeInfoBox, isWeb && { padding: 24 }]}>
                                 {selectedItem?.hp ? (
                                     <>
-                                        <Text style={styles.infoText}>❤️ Vida: {selectedItem?.hp}</Text>
-                                        {selectedItem?.damage && <Text style={styles.infoText}>⚔️ Daño: {selectedItem?.damage}</Text>}
-                                        <Text style={styles.infoText}>🌍 Habitat: {selectedItem?.habitat}</Text>
-                                        {selectedItem?.weakness && <Text style={styles.infoText}>⚡ Debilidad: {selectedItem?.weakness}</Text>}
-                                        {selectedItem?.utility && <Text style={styles.infoText}>🛠️ Utilidad: {selectedItem?.utility}</Text>}
+                                        <Text style={[styles.infoText, isWeb && { fontSize: 18 }]}>❤️ Vida: {selectedItem?.hp}</Text>
+                                        {selectedItem?.damage && <Text style={[styles.infoText, isWeb && { fontSize: 18 }]}>⚔️ Daño: {selectedItem?.damage}</Text>}
+                                        <Text style={[styles.infoText, isWeb && { fontSize: 18 }]}>🌍 Habitat: {selectedItem?.habitat}</Text>
+                                        {selectedItem?.weakness && <Text style={[styles.infoText, isWeb && { fontSize: 18 }]}>⚡ Debilidad: {selectedItem?.weakness}</Text>}
+                                        {selectedItem?.utility && <Text style={[styles.infoText, isWeb && { fontSize: 18 }]}>🛠️ Utilidad: {selectedItem?.utility}</Text>}
                                     </>
                                 ) : (
                                     <>
-                                        <Text style={styles.infoTitle}>DETALLES:</Text>
-                                        <Text style={styles.infoText}>{selectedItem?.effect || selectedItem?.ingredients}</Text>
-                                        {selectedItem?.recipe && <Text style={styles.itemTags}>Receta: {selectedItem.recipe}</Text>}
+                                        <Text style={[styles.infoTitle, isWeb && { fontSize: 20 }]}>DETALLES:</Text>
+                                        <Text style={[styles.infoText, isWeb && { fontSize: 18 }]}>{selectedItem?.effect || selectedItem?.ingredients}</Text>
+                                        {selectedItem?.recipe && <Text style={[styles.itemTags, isWeb && { fontSize: 14 }]}>Receta: {selectedItem.recipe}</Text>}
                                     </>
                                 )}
                             </View>
-                        </View>
+                        </ScrollView>
                     </View>
                 </View>
             </Modal>
@@ -258,7 +266,7 @@ const styles = StyleSheet.create({
     section: { marginTop: 25, width: '100%' },
     sectionTitle: { color: '#ffaa00', fontSize: 18, fontWeight: 'bold', marginBottom: 12, textShadowColor: '#000', textShadowOffset: { width: 1, height: 1 }, textShadowRadius: 1 },
     resultGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' },
-    cardWeb: { width: '31%' },
+    cardWeb: { width: '100%' },
     cardMobile: { width: '100%' },
     recipeCardContainer: { marginBottom: 12, position: 'relative' },
     recipeCard: { backgroundColor: '#e1e1e1', width: '100%', borderWidth: 3, borderColor: '#000', flexDirection: 'row', alignItems: 'center', padding: 8, zIndex: 2 },
@@ -269,16 +277,17 @@ const styles = StyleSheet.create({
     recipeName: { fontSize: 13, fontWeight: 'bold', color: '#3F3F3F' },
     recipeIngredients: { fontSize: 11, color: '#666' },
     modalBg: { flex: 1, backgroundColor: 'rgba(0,0,0,0.85)', justifyContent: 'center', alignItems: 'center' },
-    modalContent: { width: '92%', height: '88%', backgroundColor: '#c6c6c6', borderWidth: 4, borderColor: '#000', padding: 20 },
+    modalContent: { width: '92%', height: '88%', backgroundColor: '#c6c6c6', borderWidth: 4, borderColor: '#000', padding: 20, maxHeight: '95%' },
     modalHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 15 },
     modalTitle: { fontSize: 22, fontWeight: 'bold', color: '#3F3F3F' },
     closeButton: { width: 35, height: 35, backgroundColor: '#ff4d4d', borderWidth: 3, borderColor: '#000', justifyContent: 'center', alignItems: 'center' },
     closeButtonText: { color: '#fff', fontWeight: 'bold', fontSize: 18 },
-    detailContainer: { alignItems: 'center' },
-    craftingGridContainer: { flexDirection: 'row', alignItems: 'center', marginBottom: 20 },
+    detailContainer: { alignItems: 'center', paddingBottom: 20 },
+    craftingGridContainer: { flexDirection: 'row', alignItems: 'center', marginBottom: 20, justifyContent: 'center', flexWrap: 'wrap' },
     gridBackground: { backgroundColor: '#8B8B8B', padding: 6, borderWidth: 4, borderColor: '#373737' },
     grid: { width: 132, flexDirection: 'row', flexWrap: 'wrap' },
     gridCell: { width: 40, height: 40, backgroundColor: '#c6c6c6', borderWidth: 2, borderColor: '#373737', margin: 2, alignItems: 'center', justifyContent: 'center' },
+    gridEmoji: { fontSize: 24 },
     resultCell: { width: 65, height: 65, marginLeft: 15 },
     arrow: { fontSize: 22, marginHorizontal: 8 },
     recipeInfoBox: { width: '100%', backgroundColor: 'rgba(0,0,0,0.1)', padding: 12, borderWidth: 2, borderColor: 'rgba(0,0,0,0.2)' },
